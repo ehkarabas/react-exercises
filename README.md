@@ -8,4 +8,7 @@
 	<a href="https://weekly-schedule-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/weekly%20schedule-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://image-gallery-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/image%20gallery-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
