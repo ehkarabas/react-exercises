@@ -1,0 +1,84 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  .cards {
+    // border: 2px solid red;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    &:hover .card-over {
+      transform: translateY(0%);
+    }
+    &:hover img {
+      opacity: 1;
+    }
+    .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: $cardNavBgColor;
+      padding: 1rem;
+      border-radius: 10px 20px 20px 20px;
+      z-index: 2;
+    }
+    .date {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: $cardNavBgColor;
+      padding: 1rem;
+      font-size: 0.4rem;
+      border-radius: 10px;
+      z-index: 3;
+      h1 {
+        white-space: nowrap;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 10px;
+      opacity: 0.5;
+    }
+
+    .card-over {
+      // width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      font-size: 1.5rem;
+      padding: 1rem;
+      transform: translate(0, 100%);
+      transition: transform 0.7s ease-in-out;
+      z-index: 3;
+      max-height: 75%;
+      text-align: justify;
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+@include media-xsm {
+  .cards {
+    width: 270px !important;
+    height: 190px !important;
+  }
+  .card-over {
+    max-height: 65% !important;
+  }
+}

@@ -17,4 +17,7 @@
 	<a href="https://tour-places-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/tour%20places-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://horoscope-page-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/horoscope-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

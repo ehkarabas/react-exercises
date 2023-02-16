@@ -1,0 +1,37 @@
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./scss/mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap");
+
+body {
+  font-family: "Rubik Distressed", cursive;
+  background-image: $backgroundImage;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+p {
+  font-family: "Almendra Display", cursive;
+  color: #fff;
+}
+
+.App {
+  padding-bottom: 1rem;
+}
+
+@include media-md {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-xsm {
+  html {
+    font-size: 0.8rem;
+  }
+}
