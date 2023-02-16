@@ -1,0 +1,38 @@
+@import "variables";
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  @extend .flex;
+  background-color: $Teal-and-Gray-5-hex;
+  margin-bottom: 1rem;
+  ul {
+    @extend .flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    li {
+      padding: 1.5rem 0.5rem 1.5rem;
+      &:hover {
+        background-color: #5b878f;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .navbar {
+    ul {
+      gap: 0;
+    }
+  }
+}
