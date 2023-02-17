@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.inputField {
+  margin-bottom: 1rem;
+  input {
+    border: none;
+    outline: none;
+    background-color: rgba(210, 177, 107, 0.61);
+    padding: 1rem;
+    border-radius: 1rem 0 1rem 0;
+    &:focus {
+      background-color: rgba(107, 210, 205, 0.61);
+    }
+  }
+}

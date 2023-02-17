@@ -1,0 +1,18 @@
+@import "../../scss/variables";
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generation {
+  @extend .flex;
+}
+
+.boxesWrapper {
+  @extend .flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+}

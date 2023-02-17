@@ -1,0 +1,14 @@
+@import "../../scss/variables";
+
+.box {
+  background-color: $green;
+  min-width: 100px;
+  width: 8vw;
+  max-width: 200px;
+  min-height: 100px;
+  height: 8vw;
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

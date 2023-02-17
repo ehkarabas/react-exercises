@@ -1,0 +1,26 @@
+@import "./scss/variables";
+@import "./scss/mixins";
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  @extend .flex;
+  flex-direction: column;
+  padding: 2rem 10vw;
+}
+
+@include media-landscape {
+  .App {
+    padding: 0.2rem 10vw;
+  }
+}
+
+@include media-lowheight {
+  .App {
+    padding: 0.2rem 10vw;
+  }
+}

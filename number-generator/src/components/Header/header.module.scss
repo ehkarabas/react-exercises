@@ -1,0 +1,44 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  @extend .flex;
+  flex-direction: column;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  ul {
+    font-size: 1rem;
+    list-style: none;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.237);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+}
+
+@include media-xsm {
+  .header h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@include media-landscape {
+  .header {
+    margin-bottom: 0.2rem;
+  }
+}
+
+@include media-lowheight {
+  .header {
+    margin-bottom: 0.2rem;
+  }
+}
