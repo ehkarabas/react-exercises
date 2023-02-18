@@ -23,4 +23,7 @@
 	<a href="https://number-generator-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/number%20generator-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://counters-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/counters-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
