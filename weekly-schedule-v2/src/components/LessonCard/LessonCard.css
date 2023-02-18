@@ -1,0 +1,29 @@
+.cardDiv {
+  display: flex;
+  gap: 0.5rem;
+  width: fit-content;
+  align-items: center;
+  max-width: 325px;
+}
+
+.cardDiv img {
+  width: 80px;
+  height: 80px;
+}
+
+.infoDiv {
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: flex-start;
+  justify-content: center; */
+  width: fit-content;
+}
+
+.infoDiv h3 {
+  margin: 0;
+  font-size: 1.2rem !important;
+}
+
+.infoDiv h3 span {
+  color: yellow;
+}
