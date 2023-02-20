@@ -1,0 +1,28 @@
+.users {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.users__user {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 280px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.users__user p {
+  word-break: break-all;
+}
+
+.users__avatar {
+  border-radius: 50%;
+}

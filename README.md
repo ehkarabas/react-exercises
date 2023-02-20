@@ -29,4 +29,7 @@
 	<a href="https://weekly-schedule-v2-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/weekly%20schedule%20v2-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://user-cards-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/user%20cards-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
