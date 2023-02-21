@@ -32,4 +32,7 @@
 	<a href="https://user-cards-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/user%20cards-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://nhl-legends-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/nhl%20legends-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
