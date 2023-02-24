@@ -1,0 +1,9 @@
+@import "../variables";
+@import "../mixins";
+
+.cardsContainer {
+  background-image: $backgroundImageCard;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}

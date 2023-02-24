@@ -38,4 +38,7 @@
 	<a href="https://checkout-page-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/checkout%20page-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://language-cards-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/language%20cards-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

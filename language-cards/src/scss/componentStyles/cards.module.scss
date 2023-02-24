@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../mixins";
+
+.card {
+  max-width: 1024px;
+  width: 75%;
+  min-width: 260px;
+  margin: auto;
+  background-color: $alternateColor !important;
+  &__body {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_img {
+      filter: blur(0.5px);
+      // width: 60%;
+      // height: 60%;
+      display: block;
+      margin: auto;
+      transition: scale 0.2s ease-in-out;
+      &:hover {
+        scale: 1.1;
+      }
+    }
+    &_infos {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  &__footer_title {
+    // word-wrap: break-word;
+    // word-break: keep-all;
+    white-space: nowrap;
+  }
+}
