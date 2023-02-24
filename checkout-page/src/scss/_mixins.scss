@@ -1,0 +1,51 @@
+// !=========================================================
+// !                    MIXINS
+// !=========================================================
+
+@mixin media-landscape {
+  @media screen and (max-height: 940px) and (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin media-lowheight {
+  @media screen and (max-height: 420px) {
+    @content;
+  }
+}
+
+@mixin media-lowwidth {
+  @media screen and (max-width: 360px) {
+    @content;
+  }
+}
+
+@mixin media-xsm {
+  @media screen and (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin media-sm {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}

@@ -35,4 +35,7 @@
 	<a href="https://nhl-legends-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/nhl%20legends-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://checkout-page-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/checkout%20page-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

@@ -1,0 +1,80 @@
+@import "./scss/reset", "./scss/variables", "./scss/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "Fira Code", monospace;
+  background-color: $whitish;
+}
+
+.main-container {
+  min-width: 270px !important;
+  .cols-wrapper {
+    .add-product-col {
+      max-width: 650px !important;
+    }
+    .product-cards-col {
+      max-width: 650px !important;
+      #product-panel {
+        .card {
+          .card-body {
+            min-width: 250px !important;
+            .product-total-wrapper {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-xsm {
+  .main-container {
+    padding: 0 !important;
+  }
+}
+
+@include media-lowwidth {
+  .main-container {
+    width: 95% !important;
+  }
+}
+
+@include media-sm {
+  .url-label-narrow {
+    display: inline !important;
+  }
+  .url-label-wide {
+    display: none;
+  }
+}
+
+@include media-lg {
+  .main-container {
+    .cols-wrapper {
+      .product-cards-col,
+      .add-product-col {
+        width: 100% !important;
+      }
+    }
+    .cols-wrapper {
+      .product-cards-col {
+        .card {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    }
+  }
+}
+
+@include media-xl {
+  .main-container {
+    .product-cards-col,
+    .add-product-col {
+      margin: 0 !important;
+    }
+  }
+}
