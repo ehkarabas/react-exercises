@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    60deg,
+    #223240,
+    #3b8c66,
+    #367356,
+    #60bf81,
+    #93d94e
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin: 1rem;
+  font-family: "Fira Code", monospace;
+  font-size: 1.5rem;
+  color: azure;
+}
+.app {
+  display: grid;
+  place-content: center;
+  margin: 1rem auto 1rem;
+  max-width: 55%;
+}
+.main {
+  padding: 1rem;
+  max-width: 100%;
+}
+.card {
+  background-color: #22324052;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  color: aliceblue;
+}
+h5 {
+  font-size: 1.6rem;
+  font-family: "Fira Code", monospace;
+  color: #93d94e;
+}
+.ques {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ques-answer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border-radius: 50%;
+  background: rgba(252, 251, 251, 0.5);
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+p {
+  margin-top: 3px;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Pathway Gothic One", sans-serif;
+  text-indent: 1.25rem;
+}
+
+@media only screen and (max-width: 360px) {
+  .card {
+    font-size: 0.9rem;
+  }
+  .card h5 {
+    word-wrap: break-word;
+  }
+  .row {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card {
+    font-size: 0.85rem;
+  }
+  .card h5 {
+    font-size: 0.85rem;
+    word-wrap: break-word;
+  }
+  .row {
+    width: 270px;
+  }
+}
