@@ -47,4 +47,7 @@
 	<a href="https://appointment-project-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/appointment%20project-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://router-exercise-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/router%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

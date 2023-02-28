@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid purple;
+}
+
+.navbar a,
+.navbar span {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar span:hover {
+  background-color: purple;
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+
+.users-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.users {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.users li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.users li a:hover {
+  color: green;
+  background-color: antiquewhite;
+}
+
+.json-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.json {
+  text-align: start;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+}
