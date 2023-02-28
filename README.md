@@ -50,4 +50,7 @@
 	<a href="https://router-exercise-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/router%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://cult-movies-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/cult%20movies-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
