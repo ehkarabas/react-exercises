@@ -1,0 +1,14 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.image404 {
+  // background-image: url($notFoundImgCDN);
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // object-fit: cover;
+  width: auto;
+  height: 50vh;
+  overflow: hidden;
+  img {
+    height: 100%;
+  }
+}

@@ -1,0 +1,48 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.about-me {
+  min-height: 60vh;
+  margin: auto;
+  &_header {
+    @include textShadow(#1100ff, 2px, 2px, $secondary-color);
+  }
+  &_description {
+    text-align: justify;
+    @include textShadow(#1100ff, 2px, 2px, #6fff00);
+  }
+}
+
+.about-me-history {
+  background-color: $primary-color;
+  &_job {
+    width: 70%;
+    border-bottom: 0.5rem solid $secondary-color;
+    background-color: #646464;
+    padding: 1rem 2rem 0;
+  }
+}
+
+@include media-xsm {
+  .about-me {
+    width: 75% !important;
+    height: 300px;
+    min-height: auto;
+    padding-top: 25rem;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &_description {
+      text-align: start;
+    }
+  }
+  .about-me-history {
+    &_job {
+      height: 200px;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
