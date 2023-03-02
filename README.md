@@ -59,4 +59,7 @@
 	<a href="https://task-tracker-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/task%20tracker-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://task-tracker-localstorage-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/task%20tracker%20ls-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
