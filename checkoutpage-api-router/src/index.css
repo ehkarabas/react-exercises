@@ -1,0 +1,31 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error-wrapper {
+  height: 50vh;
+}
+
+.error-background {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: white;
+}
+
+.error-page {
+  position: relative;
+  z-index: 1;
+}
+
+.app {
+  min-height: 100vh;
+}
