@@ -71,4 +71,7 @@
 	<a href="https://checkout-page-api-router-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/checkout%20page%20api%20router-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://context-exercise-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/context%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
