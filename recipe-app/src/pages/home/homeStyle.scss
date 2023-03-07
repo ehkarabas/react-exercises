@@ -1,0 +1,33 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.recipe-card {
+  height: 450px;
+}
+
+.home-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://img.freepik.com/free-photo/ingredients-cabbage-carrot-pie-cabbage-carrots-eggs-flour-milk-butter-spices-white-background_127032-2682.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+  &:after {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+  }
+}

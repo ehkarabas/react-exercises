@@ -74,4 +74,7 @@
 	<a href="https://context-exercise-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/context%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://recipe-app-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/recipe%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

@@ -1,0 +1,29 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.details-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://img.freepik.com/free-photo/paper-molds-baking-cupcakes-white-concrete-background-ingredients-flour-eggs-cane-sugar-whisk-milk-spices-measuring-spoons-skewers-cupcakes-copy-space-top-view_127032-2384.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+  &:after {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.1;
+  }
+}

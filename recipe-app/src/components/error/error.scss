@@ -1,0 +1,10 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.image404 {
+  width: auto;
+  height: 50vh;
+  overflow: hidden;
+  img {
+    height: 100%;
+  }
+}

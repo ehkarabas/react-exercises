@@ -1,0 +1,13 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.navbar {
+  // height: 10vh;
+  background-color: #889da0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  &-brand {
+    padding-left: 1rem;
+  }
+}

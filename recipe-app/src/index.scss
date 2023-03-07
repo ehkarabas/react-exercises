@@ -1,0 +1,8 @@
+@import "./scss/reset", "./scss/variables", "./scss/mixins";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+.swal2-popup {
+  font-size: 0.8rem !important;
+  font-family: Georgia, serif;
+  padding: 0.5rem;
+}

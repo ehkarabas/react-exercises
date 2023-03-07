@@ -1,0 +1,41 @@
+@import "../../scss/variables", "../../scss/mixins";
+
+.card-wrapper {
+  height: 90vh;
+  width: 70%;
+  min-width: 250px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.card-subtitle {
+  font-style: italic;
+}
+
+.about-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/chef-with-a-spoon-background-with-space-for-text-alexander-gombash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+  &:after {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.25;
+  }
+}
