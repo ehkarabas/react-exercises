@@ -80,4 +80,7 @@
 	<a href="https://website-with-router-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/site%20with%20router-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://library-app-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/library%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

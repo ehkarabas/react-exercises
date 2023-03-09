@@ -1,0 +1,31 @@
+//create theme
+export const theme = {
+  colors: {
+    navbarBgColor: "#008F8C",
+    navbarBgColorDark: "#111",
+    mainColor: "#015958",
+    mainColorDark: "#222",
+    logoColor: "#fff",
+    logoColorDark: "#888",
+    linkColor: "#AB7E74",
+    linkColorDark: "#999",
+    linkHoverColor: "rgb(5,5,5)",
+    linkHoverColorDark: "#fff",
+    headerFormColor: "#008F8C",
+    headerFormColorDark: "#333",
+    detailColor: "#0CABA8",
+    detailColorDark: "rgb(138, 138, 76)",
+    aboutColor: "#000",
+    aboutColorDark: "rgb(138, 138, 76)",
+    cardTitle: "#ccc",
+    cardTitleDark: "#222",
+  },
+  breakpoints: {
+    lowest: "280px",
+    mobile: "420px",
+    xs: "575px",
+    sm: "767px",
+    md: "991px",
+    lg: "1199px",
+  },
+};
