@@ -1,0 +1,42 @@
+@import "./scss/reset", "./scss/variables", "./scss/mixins";
+
+.card {
+  min-height: 500px !important;
+  height: fit-content !important;
+}
+
+@include media-sm {
+  .subscribe {
+    justify-content: center !important;
+  }
+  .navbar {
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  .services,
+  .about {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  .getQuote {
+    width: 100% !important;
+    &_Form {
+      min-width: 150px !important;
+      width: 100% !important;
+    }
+    input,
+    textarea {
+      width: 100% !important;
+    }
+    input {
+      max-width: 250px !important;
+    }
+  }
+}
+
+@include media-lowwidth {
+  .homeBanner {
+    height: 60vh !important;
+  }
+}
