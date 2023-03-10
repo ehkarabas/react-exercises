@@ -83,4 +83,7 @@
 	<a href="https://library-app-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/library%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://firebase-auth-exercise-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/firebase%20auth%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
