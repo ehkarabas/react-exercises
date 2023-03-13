@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+/* ! .btn en alta yerlestirilirse .btn class'i verilmis bir component'a utilities kullanilarak px-6 verilemez cunku .btn class'i utilities'i ezeceginden .btn icerisindeki px-5 gecerli olur. */
+/* .btn {
+  @apply inline-block px-5 py-3 shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-400 sm:hover:text-3xl hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600 text-white uppercase tracking-wider font-semibold text-sm sm:text-base;
+} */
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  /* ! bu yaklasim button, headline(h tags) veya form input'lari icin iyi bir yaklasimdir ancak card, image veya header gibi daha buyuk component'lar icin reuseable component yapilari kurulmalidir. */
+  .btn {
+    @apply inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 uppercase tracking-wider font-semibold text-sm sm:text-base;
+  }
+
+  .btn-primary {
+    @apply bg-brand hover:bg-brand-light focus:ring-brand focus:ring-opacity-50 text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-300 hover:bg-indigo-200 focus:ring-gray-300 focus:ring-opacity-50 text-gray-500;
+  }
+}
