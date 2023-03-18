@@ -89,4 +89,7 @@
 	<a href="https://tailwind-exercise-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/tailwind%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://movie-app-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/movie%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
