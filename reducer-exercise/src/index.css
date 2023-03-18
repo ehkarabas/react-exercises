@@ -1,0 +1,53 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  button {
+    @apply px-4 py-2 mx-2 rounded-lg font-medium;
+  }
+}
+
+@layer components {
+  .btn-increment {
+    @apply bg-success-500 dark:bg-success-200 hover:bg-success-300 dark:hover:bg-success-700 text-success-800  dark:hover:text-white focus:ring-2 focus:outline-none focus:ring-green-500 dark:focus:ring-green-200 transition-colors;
+  }
+  .btn-decrement {
+    @apply bg-danger-500 dark:bg-danger-200 hover:bg-danger-300 dark:hover:bg-danger-700 text-danger-900  dark:hover:text-white focus:ring-2 focus:outline-none focus:ring-red-500 dark:focus:ring-red-200 transition-colors;
+  }
+}
+
+.done-wrapper {
+  border-left: 1rem solid #00e978;
+}
+
+.done-data {
+  text-decoration: line-through;
+}
+
+.swal2-popup {
+  font-size: 0.8rem !important;
+  font-family: Georgia, serif;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 380px) {
+  .swal2-popup,
+  .todo-item {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .swal2-popup,
+  .todo-item {
+    font-size: 0.6rem !important;
+  }
+}
