@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  button {
+    @apply m-3 py-2 px-8 text-[1.5rem] text-white border-none outline-none rounded-xl cursor-pointer hover:opacity-50 hover:transition-all;
+  }
+}

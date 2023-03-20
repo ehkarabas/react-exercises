@@ -101,4 +101,7 @@
 	<a href="https://reducer-exercise-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/reducer%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://react-redux-exercise-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/redux%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
