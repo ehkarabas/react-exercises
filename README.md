@@ -110,4 +110,7 @@
 	<a href="https://redux-toolkit-middleware-ex-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/redux%20toolkit%20mw-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://formik-yup-exercise-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/formik%20yup%20exercise-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
