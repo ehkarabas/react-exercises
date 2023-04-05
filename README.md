@@ -116,4 +116,7 @@
 	<a href="https://stock-app-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/stock%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://blog-app-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/blog%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
