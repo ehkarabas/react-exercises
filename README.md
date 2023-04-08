@@ -122,4 +122,7 @@
 	<a href="https://todo-typescript-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/todo%20typescript-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://store-typescript-redux-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/store%20typescript%20redux-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>
