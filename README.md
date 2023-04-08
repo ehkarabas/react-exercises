@@ -119,4 +119,7 @@
 	<a href="https://blog-app-ehkarabas.netlify.app/">
 		<img src="https://img.shields.io/badge/blog%20app-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
+	<a href="https://todo-typescript-ehkarabas.netlify.app/">
+		<img src="https://img.shields.io/badge/todo%20typescript-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
+	</a>
 </div>

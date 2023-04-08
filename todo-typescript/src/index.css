@@ -1,0 +1,126 @@
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* background-image: linear-gradient(
+      43deg,
+      #3a4257 0%,
+      #f0ddbc 46%,
+      #3a4257 100%
+    ); */
+    @apply w-screen min-h-screen flex justify-center items-center text-black font-firaCode bg-[#3a4257]   dark:bg-slate-500 dark:text-white bg-gradient-to-tr from-[#334675] to-[#bdf0bc];
+  }
+
+  input,
+  textarea {
+    @apply ring-0 !important;
+  }
+
+  input {
+    @apply hover:dark:outline-white !important;
+  }
+
+  ul {
+    @apply flex flex-col mt-10 py-4 px-0 sm:px-12;
+  }
+
+  li {
+    @apply w-full flex justify-between items-center my-4 mx-0 pl-1 text-[#f0ddbcd7] border border-solid border-[#f0ddbc69] cursor-pointer;
+  }
+
+  li p {
+    @apply w-[85%] whitespace-pre-wrap break-all;
+  }
+}
+
+@layer components {
+  .btn-success {
+    @apply w-full mr-2 mb-2 mt-4 px-5 py-2.5 text-white text-lg font-medium rounded-lg bg-green-700 hover:bg-green-800 focus:outline-none  focus:ring-4 focus:ring-green-300 dark:bg-cyan-600 dark:hover:bg-green-700 dark:focus:ring-green-900;
+  }
+
+  .container {
+    @apply flex justify-center items-center w-full;
+  }
+
+  .text {
+    @apply my-8 mx-0 text-center text-[#F0DDBC];
+  }
+
+  .form-control {
+    @apply h-[80vh] flex flex-col justify-start items-center rounded-md shadow-lg p-6 overflow-auto scrollbar-hide bg-[#1c28459c] border-none;
+  }
+
+  .form {
+    @apply w-full flex;
+  }
+
+  .input-form {
+    @apply flex justify-evenly p-1;
+  }
+
+  .btn-hover {
+    @apply w-[50%] h-12 py-0 px-4 text-sm text-white cursor-pointer border-none rounded-md transition-all;
+  }
+
+  .btn-hover:hover {
+    background-size: 0%;
+    @apply transition-all;
+  }
+
+  .btn-hover.btn-color {
+    /* background-image: linear-gradient(
+      to right,
+      #403a60,
+      #f0ddbc,
+      #5d477772,
+      #3a4257
+    ); */
+    @apply shadow-lg bg-gradient-to-r from-[#3a5d60] to-[#5a69b5];
+  }
+
+  .input-task {
+    @apply w-full h-12 rounded-md py-0 px-4 outline-none border-none bg-[#3a425764] text-[#F0DDBC] shadow-lg;
+  }
+
+  .checked {
+    @apply line-through text-success-600;
+  }
+
+  .task-icons {
+    @apply p-2 text-xl cursor-pointer transition-all hover:text-3xl hover:transition-all text-red-500;
+  }
+
+  .swal2-custom-popup {
+    @apply max-w-[270px] text-sm text-center text-[#F0DDBC] bg-gradient-to-tr from-[#334675] to-[#bdf0bc] !important;
+  }
+}
+
+/* + Overflow durumlari icin scrollbar gizleme class'i olusturma */
+@layer utilities {
+  /* For Webkit-based browsers (Chrome, Safari and Opera) */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swal2-success-circular-line-left,
+.swal2-success-circular-line-right,
+.swal2-success-fix {
+  display: none !important;
+}
