@@ -7,7 +7,7 @@
 		<img src="https://img.shields.io/badge/live-%23.svg?&style=for-the-badge&logo=www&logoColor=white%22&color=black">
 	</a>
 	<br>
-	<img src="./public/images/website-with-router-presentation.gif"/>
+	<img src="./public/images/firebase-auth-exercise-presentation.gif"/>
 </div>
 
 ## Description
